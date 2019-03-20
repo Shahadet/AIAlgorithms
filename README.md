@@ -43,64 +43,64 @@ Algorithms:
  you can even turn on the log to see sequence of execution(optional)
 
  
-  Example of execution(without log):
-  For giving input simply provide values sequentially. For example if your input is:
-	1 2 3
-	8   4
-	7 6 5
-	---------
-	Provide values as: 123804765
-	Please enter starting(initial) state :
-	283164705
-	Please enter goal(final) state :
-	123804765
-	Please Specify the algorithm type:
-	b : for BFS
-	d : for Bounded DFS
-	i : for Iterative DFS
-	a*t : for a* with Tiles Mismatch function
-	a*m : for a* with Manhatten distance function
-	a*h : for a* with The Hurestic H function
-	a*c : for a* with The Chebyshev function
-	a* : for a* with all four function
-	Please type: e for EXIT
-	b
-	Input:
-	2 8 3
-	1 6 4
-	7   5
-	---------
-	Goal:
-	1 2 3
-	8   4
-	7 6 5
-	---------
-	Solution States(Using BFS):
-	2 8 3
-	1 6 4
-	7   5
-	---------
-	2 8 3
-	1   4
-	7 6 5
-	---------
-	2   3
-	1 8 4
-	7 6 5
-	---------
-	  2 3
-	1 8 4
-	7 6 5
-	---------
-	1 2 3
-	  8 4
-	7 6 5
-	---------
-	1 2 3
-	8   4
-	7 6 5
-	---------
-	Toatl Number of states Generated:61
-	Program Run Time: [902884]Nano Second or [9.02884E-4] Second 
+Example of execution(without log).
+For giving input simply provide values sequentially. For example if your input is
+1 2 3
+8   4
+7 6 5
+---------
+Provide values as: 123804765
+Please enter starting(initial) state :
+283164705
+Please enter goal(final) state :
+123804765
+Please Specify the algorithm type:
+b : for BFS
+d : for Bounded DFS
+i : for Iterative DFS
+a*t : for a* with Tiles Mismatch function
+a*m : for a* with Manhatten distance function
+a*h : for a* with The Hurestic H function
+a*c : for a* with The Chebyshev function
+a* : for a* with all four function
+Please type: e for EXIT
+b
+Input:
+2 8 3
+1 6 4
+7   5
+---------
+Goal:
+1 2 3
+8   4
+7 6 5
+---------
+Solution States(Using BFS):
+2 8 3
+1 6 4
+7   5
+---------
+2 8 3
+1   4
+7 6 5
+---------
+2   3
+1 8 4
+7 6 5
+---------
+  2 3
+1 8 4
+7 6 5
+---------
+1 2 3
+  8 4
+7 6 5
+---------
+1 2 3
+8   4
+7 6 5
+---------
+Toatl Number of states Generated:61
+Program Run Time: [902884]Nano Second or [9.02884E-4] Second 
   
  

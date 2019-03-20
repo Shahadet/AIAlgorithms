@@ -35,14 +35,12 @@ Algorithms:
     The Chebyshev distance, C, is defined as follows (using dx and dy defined above):
     C = max(dx,dy)
 
- * Instruction to Execute:
- * The program is developed with Java 8. However this code should work with older java version as well.
- * Can be run with command(>javac assign2mha263.java		>java assign2mha263) or with any IDE
- * The program will ask for two states, one is starting state another one is goal state and will provide all instruction at runtime
- * 
- * 
- * You can test the whole application in a single run just by following instructions changing input,goal,algorithms.
- * you can even turn on the log to see sequence of execution(optional)
+ Instruction to Execute:
+ The program is developed with Java 8. However this code should work with older java version as well.
+ Can be run with command(>javac assign2mha263.java		>java assign2mha263) or with any IDE
+ The program will ask for two states, one is starting state another one is goal state and will provide all instruction at runtime
+ You can test the whole application in a single run just by following instructions changing input,goal,algorithms.
+ you can even turn on the log to see sequence of execution(optional)
 
  
   Example of execution(without log):
